@@ -1,0 +1,221 @@
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+========================================================================== */
+html{
+  max-width: 1400px;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  margin: auto;
+  background-position-x: -300px;
+  font-family: "Poppins", serif;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+a:hover{
+  opacity:0.5;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul{
+  gap: 50px;
+  align-items: center;
+  align-content: center;
+}
+
+.more {
+  display: flex;
+}
+
+.icons{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  margin-left: 150px;
+}
+
+.login ul{
+  gap: 25px;
+  align-items: center;
+  align-content: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: #264065;
+  font-family: "Poppins", serif;
+
+}
+
+.sign a{
+  color: #264065;
+  font-family: "Poppins", serif;
+
+}
+
+.hero{
+  max-width: 55%;
+  height: 80%;
+
+}
+
+.hero h1{
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;   
+  color: #264065;
+}
+
+.hero p{
+  color:#909090;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  margin-bottom: 56px;
+}
+
+.button a{
+  background-color: #264065;
+  color: #ffff;
+  font-family: "Poppins", serif;
+  border-radius: 25px;
+  padding: 16px 40px;
+  text-decoration: none;
+
+}
+
+.play{
+  display:flex;
+  align-items: center;
+  align-content: center;
+}
+
+main{
+  display: inline-block;
+  align-content: center;
+}
+
+.hero{
+  width: 60%; 
+}
+
+.servicios{
+  display:flex;
+  max-width: 40%;
+  background-color: #ffff;
+  justify-content: space-between;
+  padding: 32px;
+  margin-top: 50px;
+
+  
+}
+.servicios article{
+  font-family: "Poppins", serif;
+  max-width: 120px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.servicios article h3{
+  font-family: "Poppins", serif;
+  color: #264065;
+
+}
+
+.servicios article p{
+  color:#909090;
+  font-family: "Poppins", serif;
+  justify-content: center;
+}
+
+.buttons ul{
+  gap: 32px;
+  align-items: center;
+  align-content: center;
+}
+
+.explorebutton a{
+  display: inline-block;
+  background-color: #264065;
+  color: #ffff;
+  font-family: "Poppins", serif;
+  border-radius: 25px;
+  padding: 16px 40px;
+  text-decoration: none;
+
+}
+.play{
+  display: flex;
+  font-family: "Poppins", serif;
+  font-style: normal;
+
+}
+.play a{
+  text-decoration-line: none;
+  color: #264065;
+
+}
+.play img{
+  background-color: white;
+  border-radius: 50%;
+  padding: 16px;
+  margin-right: 10px;
+}
+
+.woman img{
+  width: 1200px;
+  height: 900px;
+  position: relative;
+  right: -280px;
+  top: -900px;
+  z-index: -1;
+}
+
+.testimonio1{
+  font-family: "Poppins", serif;
+  max-width: 318px;
+  background-color: rgba(255, 255, 255, 50%);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  position: relative;
+  right: -1020px;
+  top: -1180px;
+  padding: 10px;
+}
+
+cite{
+  font-family: "Poppins", serif;
+  color: #264065;
+  font-weight: bold;
+
+}
+.testimonio2{
+  font-family: "Poppins", serif;
+  max-width: 315px;
+  background-color: rgba(255, 255, 255, 50%);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  position: relative;
+  right: -1140px;
+  top: -1650px;
+  padding: 10px;
+}
